@@ -1,5 +1,13 @@
+import HomePage from "./pages/Home/Home";
+
 function App() {
-  return <>Covid App - React</>;
+  return (
+    <div>
+      <h2>Covid App</h2>
+      <h3>Final Project Frontend Engineer</h3>
+      <HomePage />
+    </div>
+  );
 }
 
 export default App;
